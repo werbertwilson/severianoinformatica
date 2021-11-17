@@ -4,53 +4,26 @@
     --cor-primaria: #fff;
 }
 
-/*Menu Principal*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.drop-menu ul{
-
-    list-style: none;
+body{
+    margin: 0;
     padding: 0;
 }
 
-.drop-menu ul{
-  background-color: var(--cor-fundo);
+header {
+    min-height: 500px;
+    background-image: url("../imagens/severianocomlinha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    border-bottom: var(--cor-primaria) 1px;
 }
 
-.drop-menu ul li{
-    display: inline;
-    position: relative;
-    
-}
 
-.drop-menu ul li a{
-    color: var(--cor-primaria);
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    transition: background .3s;
-}
 
-.drop-menu ul li a:hover{
-   background-color: var(--cor-hover);
-}
 
-/*Sub-menu*/
-
-.drop-menu ul ul{
-    display: none;
-    left: 0;
-    position: absolute;
-    opacity: 0;
-}
-
-.drop-menu ul li:hover ul{
-    display: block;
-}
-
-.drop-menu ul ul {
-    width: 150px;
-}
-
-.drop-menu ul ul li a {
-    display: block;
-}
