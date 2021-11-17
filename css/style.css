@@ -1,0 +1,56 @@
+:root{
+    --cor-fundo: rgb(5, 90, 168);
+    --cor-hover: rgb(0, 182, 182);  
+    --cor-primaria: #fff;
+}
+
+/*Menu Principal*/
+
+.drop-menu ul{
+
+    list-style: none;
+    padding: 0;
+}
+
+.drop-menu ul{
+  background-color: var(--cor-fundo);
+}
+
+.drop-menu ul li{
+    display: inline;
+    position: relative;
+    
+}
+
+.drop-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.drop-menu ul li a:hover{
+   background-color: var(--cor-hover);
+}
+
+/*Sub-menu*/
+
+.drop-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+}
+
+.drop-menu ul li:hover ul{
+    display: block;
+}
+
+.drop-menu ul ul {
+    width: 150px;
+}
+
+.drop-menu ul ul li a {
+    display: block;
+}
