@@ -4,7 +4,19 @@
 }
 
 header {
-    min-height: 200px;
-    background-color: rgba(41, 128, 185);
+    min-height: 500px;
+    background-image: url(../imagens/Severiano.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
+    display: flex;
+}
+
+header #logo {
+    width: 200px;
+}
+
+header #menu {
+    flex: 1;
+    display: flex;
 }
