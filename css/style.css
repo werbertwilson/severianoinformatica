@@ -9,14 +9,14 @@ body{
 }
 
 header {
-    min-height: 450px;
-    background-image: url(../imagens/Severiano.jpg);
+    min-height: 250px;
+    background-image: url(../imagens/Severianopng.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+    background-size: 500px;
+    background-position: center;
+    background-color: rgb(41, 128, 185);
     display: flex;
 }
-
 
 
 header #drop-menu {
@@ -27,8 +27,8 @@ header #drop-menu ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 0;
-    border-bottom: white 1px solid;
+    border-bottom: white 2px solid;
+    margin-bottom: 230px;
 }
 
 header #drop-menu li {
