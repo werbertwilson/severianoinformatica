@@ -3,6 +3,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     min-height: 500px;
     background-image: url(../imagens/Severiano.jpg);
@@ -51,16 +56,21 @@ header #drop-menu a {
 }
 
 footer {
-    background-color: rgb(27, 91, 165);
+    background-color: rgb(41, 128, 185);
     color: rgb(252, 252, 252);
-    font-size: 12pt;
+    font-size: .9rem;
     text-align: center;
+    bottom: 5px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 45px;
+    padding-top: 5px;
+
 }
 
 footer p{
     line-height:  35px;
 }
 
-footer .container {
-    display: flex;
-}
