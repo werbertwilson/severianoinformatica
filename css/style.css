@@ -50,3 +50,17 @@ header #drop-menu a {
     text-align: justify;
 }
 
+footer {
+    background-color: rgb(27, 91, 165);
+    color: rgb(252, 252, 252);
+    font-size: 12pt;
+    text-align: center;
+}
+
+footer p{
+    line-height:  35px;
+}
+
+footer .container {
+    display: flex;
+}
