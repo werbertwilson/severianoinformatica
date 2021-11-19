@@ -4,14 +4,74 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
-    min-height: 200px;
-    background-color: rgba(41, 128, 185);
+    min-height: 450px;
+    background-image: url(../imagens/Severiano.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    display: flex;
 }
 
 
 
+header #drop-menu {
+    flex: 1;
+}
 
+header #drop-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    border-bottom: white 1px solid;
+}
 
+header #drop-menu li {
+    min-width: 150px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+header #drop-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.home p {
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(41, 128, 185);
+    color: rgb(252, 252, 252);
+    font-size: .9rem;
+    text-align: center;
+    bottom: 5px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 45px;
+    padding-top: 5px;
+
+}
+
+footer p{
+    line-height:  35px;
+}
 
