@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,14 +10,23 @@ body{
 }
 
 header {
-    min-height: 500px;
-    background-image: url(../imagens/Severiano.jpg);
-    background-repeat: no-repeat;
+    min-height: 200px;
+    background-color: rgb(41, 128, 185);
+    background-position: top;
     background-size: cover;
-    background-position: bottom;
     display: flex;
+    position: relative;
 }
 
+header #logo {
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    min-height: 45px;
+    padding-top: 5px;
+    max-height: 200px;
+}
 
 
 header #drop-menu {
@@ -27,7 +37,7 @@ header #drop-menu ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 0;
+    padding: 15;
     border-bottom: white 1px solid;
 }
 
@@ -42,6 +52,8 @@ header #drop-menu a {
     text-decoration: none;
     font-weight: bold;
 }
+
+
 
 .container {
     max-width: 960px;
